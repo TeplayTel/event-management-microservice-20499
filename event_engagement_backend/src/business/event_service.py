@@ -15,7 +15,7 @@ from event_engagement_backend.src.exceptions.errors import (
 )
 from event_engagement_backend.src.logging.logger import get_logger
 
-logger = get_logger(__name__)
+logger = get_logger("event_engagement_backend.business.event_service")
 
 
 # PUBLIC_INTERFACE

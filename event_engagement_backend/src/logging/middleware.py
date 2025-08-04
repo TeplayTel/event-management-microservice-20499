@@ -10,6 +10,7 @@ from starlette.responses import Response
 
 from event_engagement_backend.src.logging.logger import get_logger
 
+# Use the centralized logging configuration from logger.py
 logger = get_logger("event_engagement_backend.api")
 
 # PUBLIC_INTERFACE
