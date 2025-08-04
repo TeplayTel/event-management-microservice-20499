@@ -2,6 +2,7 @@
 Configuration loader for event_engagement_backend service.
 
 Loads all properties from .env using python-dotenv and exposes config variables for use in the application.
+Expands MongoDB options as required by MongoRepository.
 """
 
 import os
