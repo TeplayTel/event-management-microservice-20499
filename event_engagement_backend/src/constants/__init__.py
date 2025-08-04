@@ -1,0 +1,3 @@
+"""
+Constants package initialization.
+"""
